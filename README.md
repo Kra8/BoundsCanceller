@@ -1,0 +1,2 @@
+# BoundsCanceller
+HTMLページのBoundsを防ぐ
