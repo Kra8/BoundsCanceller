@@ -37,7 +37,6 @@ if (typeof jQuery === "undefined") {
     function contentBoundsCancell(content) {
         var $content = $(content);
         $content.scroll(function () {
-            window.console.log($content.scrollTop());
             if ($content.scrollTop() < 0.1) { $content.scrollTop(0.0); }
             if ($content.scrollLeft() < 0.1) { $content.scrollLeft(0.0); }
         });
